@@ -5,27 +5,41 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
+    background-color: #2A2A2A;
 }
-#cabecera {
-    background-color: #33A;
+.container {
+    background-color: white;
+    width: 70%;
+    height: calc(100vh - 2px);
+    text-align: left;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+.container h1 {
+    font-size: 20px;
+}
+.cabecera {
+    display: flex;
+    align-items: center;
+    background: #03558D;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0.75);
     color: white;
     font-weight: bold;
-    margin: 0;
+    margin: 3px;
     padding: 0.5em;
+    height: 40px;
 }
-#cabecera #tagline {
+.cabecera #logo {
+    width: 30px;
+    margin-right:  10px;
+    vertical-align: middle;
+}
+.cabecera .tagline {
     padding:  0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
 }
-#container {
-    width: 70%;
+.post {
     padding: 1em;
-    text-align: left;
-    border: 1px solid #ddd;
-    margin: 0 auto;
-}
-#container h1 {
-    font-size: 20px;
 }
